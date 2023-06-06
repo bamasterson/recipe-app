@@ -46,7 +46,7 @@ function RecipeCreate({createRecipe}) {
               <label htmlFor="cuisine">
                 <input
                   id="cuisine"
-                  type="cuisine"
+                  type="text"
                   name="cuisine"
                   placeholder="Cuisine"
                   onChange={handleChange}
